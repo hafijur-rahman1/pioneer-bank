@@ -114,12 +114,12 @@
           const withdrawInput = document.getElementById("withdrawAmount").value;
           const withdrawNumber = parseFloat(withdrawInput);
 
-          const currentWithdraw = document.getElementById("currentWithdraw").innerText;
-          const currentWithdrawNumber = parseFloat(currentWithdraw);
-          const totalWithdraw = withdrawNumber + currentWithdrawNumber;
-          document.getElementById("currentWithdraw").innerText = totalWithdraw;
+          // const currentWithdraw = document.getElementById("currentWithdraw").innerText;
+          // const currentWithdrawNumber = parseFloat(currentWithdraw);
+          // const totalWithdraw = withdrawNumber + currentWithdrawNumber;
+          // document.getElementById("currentWithdraw").innerText = totalWithdraw;
 
-
+          updateAmount("currentWithdraw", withdrawNumber);
           
 
           const currentBalance = document.getElementById("baseBalance").innerText;
